@@ -1,0 +1,10 @@
+.content__title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 160px;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1.17em;
+}

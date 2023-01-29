@@ -1,0 +1,13 @@
+.content__image {
+  background: url(../../../images/content-image.png) center;
+  background-size: cover;
+  max-width: 2011px;
+  height: 403px;
+}
+
+@media (max-width: 1280px) {
+  .content__image {
+    max-width: 1280px;
+    height: 403px;
+  }
+}
