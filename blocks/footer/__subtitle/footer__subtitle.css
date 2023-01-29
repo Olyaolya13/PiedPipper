@@ -1,0 +1,9 @@
+.footer__subtitle {
+  margin: 50px auto 62px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.17em;
+  max-width: 540px;
+}
