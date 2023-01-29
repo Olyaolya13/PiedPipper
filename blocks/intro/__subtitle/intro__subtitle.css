@@ -1,0 +1,11 @@
+.intro__subtitle {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 1.17em;
+  font-weight: 400;
+}
+
+.intro__subtitle:last-child {
+  margin-bottom: 0;
+}
