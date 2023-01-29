@@ -5,3 +5,9 @@
   margin: 0 auto 0;
   padding: 0;
 }
+
+@media (max-width: 1280px) {
+  .header__list {
+    margin-right: 50px;
+  }
+}

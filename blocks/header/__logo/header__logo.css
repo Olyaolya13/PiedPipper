@@ -5,3 +5,9 @@
   height: 45.04px;
   margin: 20px auto 18px;
 }
+
+@media (max-width: 1280px) {
+  .header__logo {
+    margin-left: 50px;
+  }
+}
