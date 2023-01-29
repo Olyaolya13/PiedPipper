@@ -5,3 +5,7 @@
   margin: 0;
   padding-bottom: 38px;
 }
+
+.lead__subtitle:last-child {
+  padding-bottom: 0;
+}
