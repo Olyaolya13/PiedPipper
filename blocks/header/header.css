@@ -1,3 +1,5 @@
 .header {
   background: #007765;
+  display: flex;
+  max-width: 2011px;
 }

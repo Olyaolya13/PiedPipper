@@ -1,0 +1,10 @@
+.header__lang {
+  font-size: 24px;
+  line-height: 1.17em;
+  font-weight: 500;
+  margin-right: calc(23px - 8px);
+}
+
+.header__lang:last-child {
+  margin-right: 0;
+}
