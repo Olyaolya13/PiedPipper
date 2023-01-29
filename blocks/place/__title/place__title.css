@@ -1,0 +1,14 @@
+.place__title {
+  margin: 58px auto 56px;
+  color: #007765;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.17em;
+  align-items: center;
+}
+
+@media (max-width: 1280px) {
+  .place__title {
+    margin-top: 48px;
+  }
+}

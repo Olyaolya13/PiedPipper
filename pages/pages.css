@@ -27,3 +27,12 @@
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/_italic/intro__subtitle_italic.css);
+/*place*/
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__subtitle/place__subtitle.css);
+@import url(../blocks/place/__photo/place__photo.css);
+@import url(../blocks/place/__name/place__name.css);
+@import url(../blocks/place/__grid/place__grid.css);
+@import url(../blocks/place/__lang/place__lang.css);
