@@ -2,3 +2,16 @@
   color: #fff;
   padding-left: 8px;
 }
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .header__trait {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .header__trait {
+    display: none;
+    padding-left: 8px;
+  }
+}
