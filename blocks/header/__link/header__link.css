@@ -1,9 +1,16 @@
 .header__link {
   text-decoration: none;
   color: #fff;
-  transition: opacity 0.4s ease-in-out 0.1s;
+  transition: 0.4s ease-in-out 0.1s;
 }
 
 .header__link:hover {
   opacity: 0.6;
+  box-shadow: 10px 15px 5px rgba(55, 110, 90, 0.449);
+}
+
+@media (max-width: 530px) {
+  .header__link:hover {
+    box-shadow: 5px 5px 5px rgba(55, 110, 90, 0.449);
+  }
 }

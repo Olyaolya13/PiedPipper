@@ -6,7 +6,7 @@
 }
 
 .place__photo:hover {
-  box-shadow: 10px 5px 5px rgba(2, 237, 151, 0.449);
+  box-shadow: 10px 5px 5px rgba(55, 110, 90, 0.449);
 }
 
 @media (max-width: 1000px) {
