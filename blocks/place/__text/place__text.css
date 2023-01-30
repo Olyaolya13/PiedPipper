@@ -1,7 +1,5 @@
 .place__text {
-  color: #007765;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.17em;
-  text-align: center;
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
 }

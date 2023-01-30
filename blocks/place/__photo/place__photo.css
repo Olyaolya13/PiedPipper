@@ -1,3 +1,10 @@
 .place__photo {
   max-width: 168px;
+  box-shadow: 10px 5px 5px rgba(34, 45, 41, 0.449);
+  border-radius: 50%;
+  transition: box-shadow 0.4s ease-in-out 0.1s;
+}
+
+.place__photo:hover {
+  box-shadow: 10px 5px 5px rgba(2, 237, 151, 0.449);
 }
