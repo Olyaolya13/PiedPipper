@@ -1,5 +1,5 @@
 .header {
-  background: #007765;
+  background: linear-gradient(to right, #007765, rgba(5, 114, 147, 0.712));
   display: flex;
   max-width: 2011px;
 }
