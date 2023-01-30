@@ -5,9 +5,37 @@
   height: 403px;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .content {
     max-width: 1280px;
     height: 403px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    max-width: 1000px;
+    height: 403px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .content {
+    max-width: 768px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 550px) {
+  .content {
+    max-width: 550px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    max-width: 425px;
+    height: 250px;
   }
 }

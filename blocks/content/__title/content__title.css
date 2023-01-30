@@ -9,3 +9,35 @@
   line-height: 1.17em;
   text-shadow: 10px 5px 5px rgba(44, 227, 160, 0.449);
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content__title {
+    padding-top: 150px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .content__title {
+    padding-top: 140px;
+  }
+}
+
+@media (max-width: 610px) {
+  .content__title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 550px) {
+  .content__title {
+    padding-top: 120px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content__title {
+    padding-top: 100px;
+    font-size: 40px;
+  }
+}
