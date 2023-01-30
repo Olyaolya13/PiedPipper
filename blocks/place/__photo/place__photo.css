@@ -8,3 +8,33 @@
 .place__photo:hover {
   box-shadow: 10px 5px 5px rgba(2, 237, 151, 0.449);
 }
+
+@media (max-width: 1000px) {
+  .place__photo {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__photo {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 690px) {
+  .place__photo {
+    max-width: 130px;
+  }
+}
+
+@media (max-width: 550px) {
+  .place__photo {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 440px) {
+  .place__photo {
+    max-width: 160px;
+  }
+}

@@ -6,3 +6,28 @@
   text-align: center;
   text-shadow: 5px 5px 5px rgba(34, 45, 41, 0.449);
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .place__subtitle {
+    font-size: 14px;
+    line-height: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__subtitle {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+  .place__subtitle {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .place__subtitle {
+    font-size: 13px;
+  }
+}
