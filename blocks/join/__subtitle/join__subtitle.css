@@ -10,3 +10,31 @@
   max-width: 893px;
   text-shadow: 10px 5px 5px rgba(44, 53, 227, 0.449);
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .join__subtitle {
+    font-size: 40px;
+    max-width: 760px;
+  }
+}
+
+@media (max-width: 768px) {
+  .join__subtitle {
+    font-size: 35px;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 610px) {
+  .join__subtitle {
+    font-size: 30px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  .join__subtitle {
+    font-size: 25px;
+    max-width: 300px;
+  }
+}

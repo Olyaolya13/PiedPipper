@@ -6,3 +6,31 @@
   max-width: 2011px;
   height: 488px;
 }
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .join {
+    max-width: 1280px;
+    height: 403px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .join {
+    max-width: 1000px;
+    height: 403px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .join {
+    max-width: 768px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 550px) {
+  .join {
+    max-width: 550px;
+    height: 300px;
+  }
+}
