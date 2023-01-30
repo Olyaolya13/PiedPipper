@@ -9,3 +9,28 @@
 .lead__subtitle:last-child {
   padding-bottom: 0;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .lead__subtitle {
+    font-size: 28px;
+    line-height: 1em;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__subtitle {
+    font-size: 22px;
+    padding-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .lead__subtitle {
+    font-size: 17px;
+    padding-bottom: 20px;
+  }
+}

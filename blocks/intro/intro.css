@@ -6,20 +6,26 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro {
     max-width: 710px;
-    margin: 40px auto 80px;
+    margin-top: 40px;
+    margin-bottom: 80px;
   }
 }
 
 @media (max-width: 768px) {
   .intro {
     max-width: 500px;
-    margin: 35px auto 70px;
+    margin-top: 35px;
+    margin-bottom: 70px;
   }
 }
 
 @media (max-width: 550px) {
   .intro {
     max-width: 350px;
-    margin: 30px auto 60px;
+  }
+}
+@media (max-width: 400px) {
+  .intro {
+    margin: 30px 10px 60px;
   }
 }
