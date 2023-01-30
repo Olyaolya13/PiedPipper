@@ -1,5 +1,25 @@
 .footer {
   display: flex;
-  background: #333;
+  justify-content: center;
+  align-items: center;
+  background: hsla(161, 21%, 26%, 0.729);
   height: 176px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 140px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer {
+    height: 176px;
+  }
 }

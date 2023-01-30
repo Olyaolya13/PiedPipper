@@ -5,6 +5,7 @@
   height: 45.04px;
   margin: 20px auto 18px;
   transition: opacity 0.4s ease-in-out 0.1s;
+  z-index: 10;
 }
 .header__logo:hover {
   opacity: 0.8;

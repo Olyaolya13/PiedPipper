@@ -3,6 +3,7 @@
   line-height: 1.17em;
   font-weight: 500;
   margin-right: calc(23px - 8px);
+  z-index: 10;
 }
 
 .header__lang:last-child {

@@ -1,5 +1,16 @@
 .header {
-  background: linear-gradient(to right, #007765, rgba(5, 114, 147, 0.712));
+  background: linear-gradient(to right, #293a38, rgba(51, 102, 118, 0.712));
   display: flex;
   max-width: 2011px;
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  background: rgba(223, 227, 226, 0.055);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
