@@ -1,0 +1,9 @@
+.header__start-icon {
+  width: 30px;
+}
+
+@media (max-width: 425px) {
+  .header__start-icon {
+    width: 20px;
+  }
+}
