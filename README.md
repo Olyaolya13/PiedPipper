@@ -15,6 +15,7 @@ I use this project for practice:
 - CSS3
 - Flexbox
 - Grid
+- Adaptive layouts with media queries max-width 2011px and min-width 320px
 
 **Figma**
 
